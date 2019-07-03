@@ -6,6 +6,10 @@ import router from './router'
 
 // 初始化样式
 import './common/css/reset.css'
+// 完整引入Element-ui
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI); //注册mint-UI组件库
 
 Vue.config.productionTip = false
 

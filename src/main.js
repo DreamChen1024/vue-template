@@ -4,6 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// 基础组件自动化全局注册
+import './components/componentsRegister'
 // 初始化样式
 import './common/css/reset.css'
 // 完整引入Element-ui

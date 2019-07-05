@@ -34,7 +34,23 @@ export default new Router({
           component: () => import('@/views/Form/radio.vue')
         },
         {
-          path: 'form/cascader',
+          path: '/form/checkBox',
+          name: 'checkBox',
+          meta: {
+            title: '复选框'
+          },
+          component: () => import('@/views/Form/checkBox.vue')
+        },
+        {
+          path: '/form/input',
+          name: 'input',
+          meta: {
+            title: '输入框'
+          },
+          component: () => import('@/views/Form/input.vue')
+        },
+        {
+          path: '/form/cascader',
           name: 'cascader',
           meta: {
             title: '级联选择器'

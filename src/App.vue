@@ -48,6 +48,14 @@ export default {
             {
               path: "/form/radio",
               name: "单选框"
+            },
+             {
+              path: "/form/checkBox",
+              name: "复选框"
+            },
+            {
+              path: "/form/input",
+              name: "输入框"
 						},
             {
               path: "/form/cascader",

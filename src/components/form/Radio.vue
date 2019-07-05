@@ -31,21 +31,25 @@ export default {
 
 
 <style lang="scss" scoped>
+$width: 18px;
+$height: 18px;
+$border-color: #ccc;
+$background-img-active: url('./../../assets/img/active.png'); //已选中 
+
 .radio {
-  .label {
-    height: 18px;
-    width: 18px;
+  .label {    
+    width: $width;
+    height: $height;
     display: inline-block;
-    // background-image: url("https://caiyunupload.b0.upaiyun.com/newweb/imgs/icon-unchecked.png");
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
     margin-top: -4px;
-    border: 2px solid #ccc;
+    border: 2px solid $border-color;
     border-radius: 50%;
   }
   input[type="radio"]:checked + .label {
-    background-image: url("./../../assets/img/active.png");
+    background-image: $background-img-active;
     background-size: cover;
   }
 }

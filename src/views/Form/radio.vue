@@ -46,6 +46,8 @@ export default {
 <style lang="scss" scoped>
 .radioContainer {
 	font-size: 20px;
+	margin-top: 100px;
+	text-align: center;
 	p {
 		line-height: 20px;
 		margin-bottom: 10px;

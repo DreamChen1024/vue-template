@@ -62,7 +62,18 @@ export default {
               name: "级联选择器"
 						}
           ]
-				},
+        },
+        {
+          id: "2",
+          title: "通知",
+          path: "/notice",
+          childs: [
+            {
+              path: "/notice/loading",
+              name: "加载"
+            },
+          ]
+        }
       ]
     }
   },

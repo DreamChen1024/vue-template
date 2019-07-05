@@ -1,0 +1,34 @@
+/*定位拉伸*/
+@mixin fullScreen($t: 0, $r: 0, $b: 0, $l: 0, $p: absolute) {
+	position: $p;
+	top: $t;
+	right: $r;
+	bottom: $b;
+	left: $l;
+}
+
+@mixin transformX($t, $l, $tl) {
+	position: absolute;
+	top: $t;
+	left: $l;
+	transform: translateX($tl);
+}
+
+@mixin transformY($t, $l, $tl) {
+	position: absolute;
+	top: $t;
+	left: $l;
+	transform: translateY($tl);
+}
+
+@mixin textCenter($width, $height) {
+	width: $width;
+	height: $height;
+	line-height: $height;
+	text-align: center;
+}
+
+@mixin heightCenter($height) {
+	height: $height;
+	line-height: $height;
+}

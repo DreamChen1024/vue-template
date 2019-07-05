@@ -25,10 +25,10 @@ export default {
       let matched = this.$route.matched.filter(item => item.name);
       console.log(matched);
       const first = matched[0];
-      if (first && first.name !== "首页") {
+      if (first && first.name !== "home") {
         matched = [{ path: "/home", meta: { title: "首页" } }].concat(matched);
       }
-      this.levelList = matched;
+        this.levelList = matched;
     }
   },
   mounted() {

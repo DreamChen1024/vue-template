@@ -1,5 +1,5 @@
 <template>
-    <div class="form">
+    <div class="formContainer">
         <router-view></router-view>
     </div>
 </template>

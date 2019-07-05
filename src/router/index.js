@@ -26,12 +26,20 @@ export default new Router({
       component: () => import('@/views/Form/form.vue'),
       children: [
         {
-          path: '/cascader',
+          path: '/form/radio',
+          name: 'radio',
+          meta: {
+            title: '单选框'
+          },
+          component: () => import('@/views/Form/radio.vue')
+        },
+        {
+          path: 'form/cascader',
           name: 'cascader',
           meta: {
             title: '级联选择器'
           },
-          component: () => import('@/components/form/cascader.vue')
+          component: () => import('@/views/Form/cascader.vue')
         }
       ]
     }

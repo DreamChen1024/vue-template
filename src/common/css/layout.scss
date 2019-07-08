@@ -21,6 +21,13 @@
 	transform: translateY($tl);
 }
 
+@mixin transformCenter($t: 50%, $l: 50%) {
+	position: absolute;
+	top: $t;
+	left: $l;
+	transform: translate(-$t, -$l);
+}
+
 @mixin textCenter($width, $height) {
 	width: $width;
 	height: $height;

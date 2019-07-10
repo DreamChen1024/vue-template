@@ -44,6 +44,7 @@ export default {
         {
           id: "1",
           title: "表单",
+          path: "/form",
           childs: [
             {
               path: "/form/radio",

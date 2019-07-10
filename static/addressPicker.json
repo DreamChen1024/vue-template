@@ -1,0 +1,88 @@
+{
+	"code": "0",
+	"msg": "响应成功",
+	"data": [
+		{
+			"id": "001",
+			"name": "湖北省",
+			"districtId": "001",
+			"cityChild": [
+				{
+					"id": "00101",
+					"name": "武汉市",
+					"districtId": "00101",
+					"countyChild": [
+						{
+							"id": "0010101",
+							"name": "洪山区",
+							"districtId": "0010101",
+							"townChild": [
+								{
+									"id": "0010101001",
+									"name": "珞珈山街道",
+									"districtId": "0010101001"
+								}
+							]
+						},
+						{
+							"id": "0010102",
+							"name": "高新区",
+							"districtId": "0010102"
+						}
+					]
+				},
+				{
+					"id": "00102",
+					"name": "宜昌市",
+					"districtId": "00102"
+				},
+				{
+					"id": "00103",
+					"name": "黄冈市",
+					"districtId": "00103"
+				}
+			]
+		},
+		{
+			"id": "002",
+			"name": "湖南省",
+			"districtId": "002"
+		},
+		{
+			"id": "003",
+			"name": "北京市",
+			"districtId": "003"
+		},
+		{
+			"id": "004",
+			"name": "河北省",
+			"districtId": "004"
+		},
+		{
+			"id": "005",
+			"name": "山西省",
+			"districtId": "005"
+		},
+		{
+			"id": "006",
+			"name": "山东省",
+			"districtId": "006"
+		},
+		{
+			"id": "007",
+			"name": "福建省",
+			"districtId": "007"
+		},
+		{
+			"id": "008",
+			"name": "浙江省",
+			"districtId": "008"
+		},
+		{
+			"id": "009",
+			"name": "广东省",
+			"districtId": "009"
+		}
+	],
+	"success": true
+}

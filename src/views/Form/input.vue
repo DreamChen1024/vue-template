@@ -1,5 +1,5 @@
 <template>
-    <div class="inputContainer">
-        <Input/>
-    </div>
+  <div class="inputContainer">
+    <Input />
+  </div>
 </template>

@@ -39,3 +39,7 @@
 	height: $height;
 	line-height: $height;
 }
+
+@mixin border($width: 1px, $style: solid, $color: #ccc) {
+	border: $width $style $color;
+}

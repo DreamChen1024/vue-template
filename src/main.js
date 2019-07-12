@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import axios from 'axios'
-
+import apis from './common/js/services'
 // 基础组件自动化全局注册
 import './components/componentsRegister'
 // 初始化样式
@@ -17,6 +17,7 @@ Vue.use(ElementUI); //注册mint-UI组件库
 Vue.config.productionTip = false
 
 Vue.prototype.$http = axios;
+Vue.prototype.$api = apis;
 
 /* eslint-disable no-new */
 new Vue({

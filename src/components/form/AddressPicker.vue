@@ -93,8 +93,10 @@ export default {
   },
   methods: {
     _initData() {
+      this.$myLoading.open();
       //======== 初始化省级
       this.$http.get(this.$api.addressPicker).then(res => {
+        this.$myLoading.hide();
         console.log(res);
         this.provinceList = res.data.data;
         console.log(this.provinceList);

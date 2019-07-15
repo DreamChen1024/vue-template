@@ -5,6 +5,14 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import apis from './common/js/services'
+
+//如果有icon 需要换成本地的
+import myLoading from './components/notice/loading/index'
+Vue.use(myLoading, {
+  // icon: require(),
+  // progressColor: 'blue'
+})
+
 // 基础组件自动化全局注册
 import './components/componentsRegister'
 // 初始化样式

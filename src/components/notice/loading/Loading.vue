@@ -1,5 +1,5 @@
 <template>
-  <div class="loading">
+  <div class="loading" v-if="show">
     <div class="loadingContent">
       <span></span>
       <span></span>
@@ -10,8 +10,20 @@
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      show: false
+    }
+  }
+}
+</script>
+
+
+
 .<style lang="scss" scoped>
-@import "./../../common/css/global.scss";
+@import "./../../../common/css/global.scss";
 .loading {
   @include fullScreen();
   background-color: rgba(0, 0, 0, 0.3);

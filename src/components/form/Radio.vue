@@ -35,6 +35,7 @@ $width: 18px;
 $height: 18px;
 $border-color: #ccc;
 $background-img-active: url('./../../assets/img/active.png'); //已选中 
+$color-active: red; //选中文字
 
 .radio {
   .label {    
@@ -51,6 +52,9 @@ $background-img-active: url('./../../assets/img/active.png'); //已选中
   input[type="radio"]:checked + .label {
     background-image: $background-img-active;
     background-size: cover;
+  }
+  input[type="radio"]:checked ~ .radio-name {
+    color: $color-active;
   }
 }
 </style>

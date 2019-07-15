@@ -19,7 +19,7 @@ export default new Router({
       path: '/form',
       name: 'form',
       meta: { title: '表单' },
-      component: () => import('@/views/Form/form.vue'),
+      component: () => import('@/views/Form/index.vue'),
       children: [
         {
           path: '/form/radio',
@@ -44,7 +44,13 @@ export default new Router({
           name: 'cascader',
           meta: { title: '级联选择器' },
           component: () => import('@/views/Form/cascader.vue')
-        }
+        },
+        {
+          path: '/form/form',
+          name: 'form',
+          meta: { title: '表单' },
+          component: () => import('@/views/Form/form.vue')
+        },
       ]
     },
     {

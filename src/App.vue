@@ -61,6 +61,10 @@ export default {
             {
               path: "/form/cascader",
               name: "级联选择器"
+            },
+            {
+              path: "/form/form",
+              name: "表单"
 						}
           ]
         },
